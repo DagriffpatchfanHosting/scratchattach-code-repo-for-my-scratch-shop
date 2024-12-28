@@ -1,7 +1,7 @@
 import scratchattach as sa
 import json
 
-session = sa.login("Dagriffpatchfan", "the_pw")
+session = sa.login("your_username", "the_pw")
 cloud = session.connect_cloud("1110802552") #replace with your project id
 client = cloud.requests()
 
