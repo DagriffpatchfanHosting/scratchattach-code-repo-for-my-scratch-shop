@@ -26,6 +26,81 @@ Do you own at least one of the projects:
 Will you credit me and link this shop within the first 10 lines of the description(s):
 Do you understand that the variables are not garunteed to sync:
 
+
+[big]**Use TEXT ML**[/big] 
+
+First off, you will need to come up with your ML model. To do that, go to the very website I am using for the Python API (thanks to Dale for creating that awesome website!)  
+
+**[Click here](https://machinelearningforkids.co.uk/)** and then click **Get Started**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/clickgetstarted.png)  
+
+Then click **Try It Now**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/clicktryitnow.png)  
+
+Then hit **Add a New Project**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/clickaddanewproject.png)  
+
+Come up with a project name and choose the following settings (change the name of the model to better suit its purpose):  
+![](https://u.cubeupload.com/Dagriffpatchfan/setupandthencreate.png)  
+
+Then click on the model:  
+![](https://u.cubeupload.com/Dagriffpatchfan/clicktoaddexamples.png)  
+
+Click **Train**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/clicktrain.png)  
+
+Add some categories for the computer to recognize:  
+![](https://u.cubeupload.com/Dagriffpatchfan/addafewlabels.png)  
+
+Add at least **5 examples per category**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/addatleast5examplest.png)  
+
+Click **Back to Project**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/clickbacktoproject.png)  
+
+Click **Learn and Test**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/clicklearnandtest.png)  
+
+Click **Train New Machine Learning Model**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/clicktrainnewmachine.png)  
+
+Wait until the model is done training:  
+![](https://u.cubeupload.com/Dagriffpatchfan/waituntilthemodelisa.png)  
+
+Click **Back to Project**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/gobacktotheproject.png)  
+
+Hit **Make**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/hitmake.png)  
+
+Choose **Scratch 3**:  
+![](https://u.cubeupload.com/Dagriffpatchfan/choosescratch3.png)  
+
+After reading how to use the blocks, click scratch 3:  
+![](https://u.cubeupload.com/Dagriffpatchfan/afterreadinghowtouse.png)  
+
+and test out your model:  
+![](https://u.cubeupload.com/Dagriffpatchfan/testoutyourmodel.png)  
+
+Once you have it perfected, come here to use it on Scratch!  
+
+To use it on Scratch, remix this project: [Remix this project](https://scratch.mit.edu/projects/1109502009/).  
+
+Then fill out this form:  
+
+Project link:
+
+**CATEGORY**  
+• Example 1  
+• Example 2  
+• Example 3  
+
+(repeat for each category you have; there is a max of 500 examples total).
+
+Please give credit within the first 10 lines of the description.
+
+
+
 Get help and support: Need assistance with your Scratchattach projects or have questions about our shop? Join the discussion! Click on the three dots in the right-hand corner of this repository and select "Discussions" to connect with other members of the community, ask questions, and get help from the team.
 Get ideas: Join the discussion forum to get inspiration for your own projects and learn about the latest trends and best practices in Scratchattach development.
 See what's next: Stay updated on the latest developments, learn about upcoming features and initiatives in our shop, and get a glimpse into what the future holds.
