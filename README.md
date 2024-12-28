@@ -1,4 +1,4 @@
-}Welcome to the Use Text ML, Sync Cloud variables, host code, and more! GitHub Repository!
+#Welcome to the Use Text ML, Sync Cloud variables, host code, and more! GitHub Repository!
 
 This repository is the central hub for all things related to our Scratch shop. Here, you can:
 
