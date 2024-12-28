@@ -1,7 +1,7 @@
 import os
 import scratchattach as sa
 
-session = sa.login("Dagriffpatchfan", "the_pw")
+session = sa.login("your_username", "the_pw")
 cloud = session.connect_cloud("1109502009")
 client = cloud.requests()
 
