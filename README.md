@@ -27,7 +27,7 @@ Will you credit me and link this shop within the first 10 lines of the descripti
 Do you understand that the variables are not garunteed to sync:
 
 
-[big]**Use TEXT ML**[/big] 
+**Use TEXT ML**
 
 First off, you will need to come up with your ML model. To do that, go to the very website I am using for the Python API (thanks to Dale for creating that awesome website!)  
 
