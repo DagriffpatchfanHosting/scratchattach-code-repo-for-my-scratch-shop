@@ -1,0 +1,18 @@
+import scratchattach as sa
+
+session = sa.login("username", "pw")
+
+project1_cloud = session.connect_cloud("843162693")
+project1_events = project1_cloud.events()
+project2_cloud = session.connect_cloud("1102436009")
+project2_events = project2_cloud.events()
+ 
+@project1_events.event
+def on_set(activity):
+    project2_cloud.set_var(activity.var, activity.value)
+@project2_events.event #remove this for a one way connection
+def on_set(activity):
+    project1_cloud.set_var(activity.var, activity.value)
+ 
+project1_events.start()
+project2_events.start() # remove this for a one way connection
