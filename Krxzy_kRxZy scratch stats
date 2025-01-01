@@ -1,0 +1,41 @@
+import scratchattach as sa
+import time
+# Replace with your Scratch username and password
+#True for Turbowarp's cloud, False for Scratch's. If True, username and password don't matter.
+use_tw_cloud=True
+#Project ID to use
+project_id="1115694649"
+#Username+pw
+username = 'Dagriffpatchfan' 
+password = 'the_pw'
+#User to get stats from
+userforinfo="50_scratch_tabs"
+# Log in to Scratch
+if use_tw_cloud:
+  cloud=sa.get_tw_cloud(project_id)
+else:
+  session = sa.Login(username, the_pw)
+  cloud = session.connect_cloud(project_id) # connect to the cloud you need to change the project id
+while True:
+  # Get user information
+  user = sa.get_user(userforinfo)
+  # Get follower count
+  follower_count = user.follower_count()
+  # Get projects
+  projects = user.projects(limit=1000000000)
+  # Initialize totals
+  total_views = 0
+  total_loves = 0
+  total_faves = 0
+  # Loop through projects to sum views and loves
+  for project in projects:
+      total_views += project.views
+      total_loves += project.loves
+      total_faves += project.favorites
+  # set variables to results
+  cloud.set_var("views", total_views) # the variable name is specified without the cloud emoji
+  time.sleep(1)
+  cloud.set_var("loves", total_loves)
+  time.sleep(1)
+  cloud.set_var("follows", follower_count)
+  time.sleep(1) #set the time to wait in seconds
